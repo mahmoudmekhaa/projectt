@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        body {
+            background-image: url(https://web.vodafone.com.eg/auth/resources/kcnmw/login/vodafone-login/img/bg-lg.jpg);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            /* background-color: #e41313; */
+            margin: 0;
+            padding: 0;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        .conainer {
+            background-color: transparent;
+            width: 100%;
+            padding: 20px;
+
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 41%;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="number"],
+        input[type="email"] {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+            width: 40%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /*  */
+        .text-start {
+            color: #fff;
+
+        }
+
+        .text-start a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 30px;
+            margin: 0 18px;
+            /* font-weight: 600; */
+
+        }
+
+        .container.hello {
+            background: transparent;
+            padding: 0;
+            box-shadow: none;
+            color: #fff;
+            margin-top: 50px;
+
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input[ type="checkbox"] {
+            float: left;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+
+        .show {
+            float: left;
+            margin-left: 5px;
+            margin-bottom: 0px !important;
+
+
+
+        }
+
+        @media screen and (max-width: 480px) {
+            .container {
+                background-color: #ffffff;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                width: 100%;
+                height: 476px;
+            }
+
+            .container.hello {
+                background: transparent;
+                padding: 20px;
+                box-shadow: none;
+                color: #fff;
+                margin-top: 50px;
+                height: 100px !important;
+
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                background-color: #ffffff;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                width: 100%;
+                height: 350px;
+            }
+
+            .container.hello {
+                background: transparent;
+                padding: 20px;
+                box-shadow: none;
+                color: #fff;
+                margin-top: 50px;
+                height: 100px !important;
+
+            }
+        }
+
+
+
+        @media screen and (max-width: 1024px) {
+            .container {
+                background-color: #ffffff;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                width: 90%;
+                height: 476px;
+            }
+
+            .container.hello {
+                background: transparent;
+                padding: 20px;
+                box-shadow: none;
+                color: #fff;
+                margin-top: 50px;
+                height: 100px !important;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="conainer ">
+
+
+            <div class="row align-items-center">
+
+                <div class="col text-start">
+                    <a href="#" class="font-light h5-3x js-toggle">العربيه</a>
+                </div>
+
+                <div class="col text-center">
+                    <a href="index.html" class="header-logo" title="Vodafone">
+                        <img src="images/Vodafone-Symbol.png" alt="" style="width: 100px;">
+                    </a>
+                </div>
+
+                <div class="col text-end">
+                    <a href="index.html" class="header-link">
+                        <span class="closeICon" style="margin: 0 18px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="100"
+                                viewBox="0,0,256,256">
+                                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                    font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                    <g transform="scale(5.12,5.12)">
+                                        <path
+                                            d="M7.71875,6.28125l-1.4375,1.4375l17.28125,17.28125l-17.28125,17.28125l1.4375,1.4375l17.28125,-17.28125l17.28125,17.28125l1.4375,-1.4375l-17.28125,-17.28125l17.28125,-17.28125l-1.4375,-1.4375l-17.28125,17.28125z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container hello">
+        <h2 style="    text-align: inherit;
+        ">Hello!</h2>
+        <p>Managing your line has never been easier</p>
+    </div>
+    <div class="container">
+        <h2>Sign up</h2>
+        <form id="signupForm">
+            <input type="text" name="username" placeholder="Username" required><br>
+            <input type="email" name="usermail" placeholder="Email" required><br>
+            <input type="number" name="userphone" placeholder="Phone" maxlength="11" required><br>
+            <input type="password" name="password1" placeholder="Password" required>
+
+            <input type="password" name="password2" placeholder="Confirm Password" required>
+            <br>
+            <input type="checkbox" id="redirectCheckbox">
+            <p class="show">Show Password</p>
+            <br>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+
+
+
+
+
+    <script>
+        document.getElementById("signupForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            var formData = {
+                username: document.getElementsByName("username")[0].value,
+                usermail: document.getElementsByName("usermail")[0].value,
+                userphone: document.getElementsByName("userphone")[0].value,
+                password: document.getElementsByName("password1")[0].value
+            };
+
+            localStorage.setItem("formData", JSON.stringify(formData));
+
+
+        });
+
+
+    </script>
+    <script>
+        document.getElementById("signupForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            var password1 = document.getElementsByName("password1")[0].value;
+            var password2 = document.getElementsByName("password2")[0].value;
+
+            if (password1 === password2) {
+                window.location.href = "sign_in.html";
+            } else {
+                alert("Passwords do not match. Please try again.");
+            }
+        });
+    </script>
+</body>
+
+
+
+
+</html>
